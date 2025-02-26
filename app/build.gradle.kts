@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.retrofitexample"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.retrofitexample"
@@ -42,6 +42,10 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    implementation(libs.retrofit2.retrofit)
+    implementation(libs.converter.gson)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
