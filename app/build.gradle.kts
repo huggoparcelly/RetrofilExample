@@ -45,6 +45,7 @@ dependencies {
 
     implementation(libs.retrofit2.retrofit)
     implementation(libs.converter.gson)
+    implementation(libs.kotlinx.coroutines.android)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
